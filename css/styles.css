@@ -5,6 +5,7 @@ body {
 .header a,
 .footer a {
 	text-decoration: none;
+	font-style: normal;
 }
 
 .header-nav-list,
@@ -47,6 +48,7 @@ body {
 .header-nav-list a:hover,
 .header-nav-list a:focus {
 	color: #2196f3;
+	cursor: pointer;
 }
 
 .header-contacts a {
@@ -68,11 +70,16 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: #ffffff;
+	cursor: pointer;
 }
 
+.address-mail a,
+.address-tel a {
+	color: rgba(255, 255, 255, 0.6);
+}
 /*-----------------MAIN STUDIO-----------------*/
 /*-----------------HERO-----------------*/
-.studio-hero {
+.studio-banner {
 	background-color: #757575;
 	font-weight: 900;
 	font-size: 44px;
@@ -97,6 +104,7 @@ body {
 	background: #2196f3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .advantage-banner {
@@ -158,4 +166,64 @@ body {
 	background: #ffffff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
+}
+
+/*-------------PORTFOLIO--------------*/
+
+.portf-btn-banner,
+.portf-proj-banner {
+	display: none;
+}
+.portf-btn-list,
+.portf-proj-list {
+	list-style: none;
+}
+
+/*-------------BUTTONS--------------*/
+.portf-btn-type button {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	background: #f5f4fa;
+	border-radius: 4px;
+}
+
+.portf-btn-type button:hover {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	background: #2196f3;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	background: #2196f3;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	cursor: pointer;
+}
+/*-------------PORTFOLIO--------------*/
+.portf-proj {
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+}
+
+.proj-name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+
+.proj-type {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: #757575;
 }
